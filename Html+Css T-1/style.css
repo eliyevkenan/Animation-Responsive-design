@@ -1,0 +1,24 @@
+.animation{
+    width: 100px;
+    height: 100px;
+    border-radius: 60px;
+    background-color: red;
+    position: relative;
+    animation-name: t-1animation;
+    animation-duration: 1s;
+    animation-fill-mode:forwards;
+    /* animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
+   
+}
+
+@keyframes t-1animation{
+    from {
+        top: 0px; background-color: red;
+        
+    }
+    to {
+        top: 300px;
+        bottom: 300px;
+    }   
+    
+}
